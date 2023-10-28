@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ 
+/* SoilMenu.css */
+.soil-menu {
+  background-color: #6b7280;
+  padding: 1rem;
+}
+
+.button-primary {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.button-secondary {
+  background-color: #e5e7eb;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.list {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.list-item {
+  font-size: 1.25rem;
+}
