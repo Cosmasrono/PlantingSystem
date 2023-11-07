@@ -15,7 +15,7 @@ function App() {
           href="/"
           className=" inline-block px-6 py-3 bg-blue-500 text-white rounded-full animate__animated animate__fadeIn"
         >
-          Shop Now
+          Refresh 
         </a>
       </header>
       <section
