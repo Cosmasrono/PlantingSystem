@@ -1,4 +1,5 @@
 'use client'
+import Password from '@/components/ForgotPassword';
 import Home from '@/components/Home';
 import Index from '@/components/Index'
 import LocationDetection from '@/components/Location';
@@ -8,12 +9,14 @@ import Signup from '@/components/SignUp';
 const page = () => {
   return (  
     <div>
-      {/*  */}
-      {/* <Signup/> */}
+ 
+       <Signup/> 
+       <Password/> 
+     
 
-      <Home/>
-      <Index/>
-      <LocationDetection/>
+ 
+       <Index/> 
+       <LocationDetection/>
     
 
     </div>

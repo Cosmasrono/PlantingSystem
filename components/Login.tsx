@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 import axios from 'axios'; // Import Axios
 
 export default function Signup() {
@@ -21,7 +22,7 @@ export default function Signup() {
 
       if (response.status==200) {
         setTimeout(() => {
-          window.location.href = '/SignUp';
+          window.location.href = '/page';
        }, 3000);
       
       } else {
@@ -58,7 +59,10 @@ export default function Signup() {
         </button>
         </form>
         <ul>Not registered ? <a href='/'><span className=' italic'>SignUp</span></a> </ul>
-        <a href='/ResetPassword'><span className=' italic'>Forgot Password</span></a>
+        <Link href="/ForgotPassword">
+        Forgot Password?
+      </Link>
+      
 
     
 
