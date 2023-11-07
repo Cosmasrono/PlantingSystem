@@ -10,8 +10,8 @@ const page = () => {
   return (  
     <div>
  
-       <Signup/> 
-       <Password/> 
+       {/* <Signup/>  */}
+        <Home/>
      
 
  

@@ -12,15 +12,15 @@ function App() {
           Discover a world of greenery with our wide selection of plants.
         </p>
         <a
-          href="#shop"
-          className="mt-6 inline-block px-6 py-3 bg-blue-500 text-white rounded-full animate__animated animate__fadeIn"
+          href="/"
+          className=" inline-block px-6 py-3 bg-blue-500 text-white rounded-full animate__animated animate__fadeIn"
         >
           Shop Now
         </a>
       </header>
       <section
         id="shop"
-        className="grid grid-cols-1 sm:grid-cols-3 gap-4 -mt-8 animate__animated animate__fadeIn"
+        className=" mt-5 grid grid-cols-1 sm:grid-cols-3 gap-4 pt-5 animate__animated animate__fadeIn"
       >
         <div className="max-w-sm m-4 rounded-lg overflow-hidden shadow-lg bg-white">
           <Image

@@ -22,7 +22,7 @@ export default function Signup() {
 
       if (response.status==200) {
         setTimeout(() => {
-          window.location.href = '/page';
+          window.location.href = '/Home';
        }, 3000);
       
       } else {

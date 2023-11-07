@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { geocode } from 'opencage-api-client';
 
 function LocationDetection() {
-  const [latitude, setLatitude] = useState(null);
-  const [longitude, setLongitude] = useState(null);
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
   const [region, setRegion] = useState(null);
   const [error, setError] = useState(null);
 
